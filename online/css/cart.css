@@ -1,0 +1,144 @@
+.scart_box{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.scart_box_c{
+	width: 1150px;
+	overflow: hidden;
+	margin:0 auto;
+}
+.sc_top{
+	width: 1150px;
+	height: 68px;
+}
+.sc_top_left{
+	float: left;
+	width: 173px;
+	height: 68px;
+	background:url(../img/sc01.jpg);
+}
+.sc_top_right{
+	width: 450px;
+	height: 68px;
+	background: url(../img/sc02.jpg);
+	float: right;
+}
+.scart_list{
+	width: 1148px;
+	margin-top: 10px;
+	border:1px solid #ccc;
+	overflow: hidden;
+}
+.scart_list_emp{
+	height: 10px;
+	width: 100%;
+	background-color: #fff;
+}
+.scart_list_top{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background:url(../img/sc03.jpg) repeat-x;
+}
+.scart_list_top li{
+	float: left;
+	height: 35px;
+	font-size: 14px;
+	background:url(../img/sc04.jpg) no-repeat right;
+}
+.scart_list_top li:last-child{
+	background:none;
+}
+.goods_list{
+	overflow: hidden;
+}
+.shopname img{
+	width: 56px;
+	margin-left: 30px;
+	padding:13px 21px;
+	float: left;
+}
+.goods_list .goods_name{
+	margin-left: 50px;
+	float: left;
+	height: 95px;
+	line-height: 95px;
+}
+.scart_main .goods_list li{
+	line-height: 95px;
+	height: 95px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+}
+.scart_main .goods_list li:nth-of-type(5){
+	line-height: none;
+}
+.shopname{
+	width: 458px;
+}
+.shopsame{
+	width:115px; 
+}
+.scart_main{
+	width: 1148px;
+	height: auto;
+	overflow: hidden;
+}
+.scart_tip{
+	border-top: 1px solid #ccc;
+	width: 100%;
+	height: 95px;
+	line-height: 95px;
+	text-align: center;
+	color: #999;
+}
+.scart_tip1{
+	border-top:1px solid #ccc;
+	width: 100%;
+	height: 95px;
+
+}
+.scart_tip1 p{
+	font-size: 12px;
+	line-height: 25px;
+}
+.scart_tip1 p span{
+	margin : 0 5px;
+	color: #c20000;
+}
+#total{
+	font-weight: bold;
+}
+#total span{
+	font-size: 18px;
+}
+.scart_info{
+	width: 230px;
+	height: 95px;
+	float: right;
+}
+.scart_bottom{
+	width: 1150px;
+	overflow: hidden;
+	padding:20px 0;
+}
+.scart_bottom a{
+	float: left;
+}
+#buyNow{
+	float:right;
+}
+#subtraction,#add{
+	float: left;
+	width: 20px;
+	cursor: pointer;
+}
+#num{
+	float: left;
+	width: 30px;
+	margin:35px 10px;
+	text-align: center;
+}

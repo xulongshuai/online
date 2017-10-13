@@ -1,0 +1,621 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	color: #464646;
+}
+.top{
+	width: 100%;
+	height: 102px;
+}
+.top-box{
+	width: 1200px;
+	height: 102px;
+	margin: 0 auto;
+}
+.searchtop{
+	float:right;
+	margin-top: 5px;
+}
+.searchtop ul li{
+	float: left;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 0 15px;
+	margin-bottom:13px;
+}
+.searchtop ul li a{
+	color:#464646;
+}
+.logo{
+	clear: right;
+	padding-bottom: 24px;
+}
+.logo img{
+	float: left;
+	display: block;
+}
+.logo img:nth-of-type(1){
+	padding-right: 5px;
+}
+.logo img:nth-of-type(2){
+	padding-right: 55px;
+}
+.logo img:nth-of-type(3){
+	padding-left: 30px;
+	padding-top: 10px;
+}
+.searchbg{
+	margin-top: 10px;
+	background:url(../img/searchbg.jpg);
+	width: 479px;
+	height: 36px;
+	float: left;
+
+}
+.searchbg input{
+	margin-top: 10px;
+	margin-left: 33px;
+	width: 340px;
+	border: 0;
+}
+.searchbg .btnsearch{
+	background: url(../img/btn_topsearch.gif);
+	width: 106px;
+	height: 36px;
+	float: right;
+}
+.navbox{
+	width: 100%;
+	height: 36px;
+	background: url(../img/navbg.jpg);
+}
+.navbox .navpngmap{
+	width: 1200px;
+	height: 36px;
+	margin: 0 auto;
+}
+.navbox .navpngmap .navProtuctAll{
+	width: 204px;
+	height: 36px;
+	float: left;
+	background:url(../img/navleftbg.png) no-repeat;
+	position: relative;
+}
+
+.navbox .navpngmap ul{
+	padding-top: 3px;
+}
+.navbox ul li{
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	background: url(../img/border.gif) right center no-repeat;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	position: relative;
+
+}
+.navbox ul li a{
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	float: left;
+	height: 33px;
+	line-height: 33px;
+	padding-left: 15px;
+	padding-right: 17px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.navbox .curChn{
+	width: 60px;
+	background-color: #6A0000;
+}
+.navbox .hit{
+	width: 22px;
+	height: 16px;
+	background: url(../img/hot.gif) no-repeat center center;
+	position: relative;
+	left: 70px;
+	top: -3px;
+}
+.navbox ul li a:hover{
+	background-color: #7A0000;
+	margin-left: -2px;
+	padding-left: 17px;
+}
+.daohanzhaoshan{
+		height:100px; 
+		position: relative;
+		clear: both;
+		background:url(../img/zhaoshan.jpg);
+		display: none;
+		z-index: 99999;
+}
+.navbox ul .daohanzhaoshan a{
+	clear: both;
+}
+/*下拉列表*/
+.winenav{
+	width: 100%;
+	position: absolute;
+	top:18px;
+	display: none;
+	z-index: 10;
+}
+.winenavmap{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.winenavmap .winenav{
+	width: 204px;
+	height: 420px;
+	background:url(../img/winenavbg.png) no-repeat;
+}
+.winenavmap .winenav .winenav1,.winenav2,.winenav3,.winenav4,.winenav5{
+	padding-left: 14px;
+	padding-top: 8px;
+	width:186px;
+	height: 75px;
+}
+.winenavmap .winenav .navtitle{
+	font-weight: bold;
+	height: 20px;
+}
+.winenavmap .winenav a{
+	line-height: 23px;
+	margin-right: 9px;
+	text-decoration: none;
+	color: #464646;
+	overflow: hidden;
+}
+.winenavdetail,.winenavdetail_1,.winenavdetail_2,.winenavdetail_3,.winenavdetail_4{
+	float: left;
+	width: 750px;
+	height: 418px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-left: none;
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	display: none;
+	z-index: 10;
+}
+.winenavdetailcontent{
+	margin: 0 10px 10px 0;
+	width: 565px;
+	float: left;
+}
+.winenavdetailtable{
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	background-color: rgb(255,255,255);
+}
+.winenavdetailtitle{
+	height: 30px;
+	font-size: 16px;
+	color: #8F0100;
+}
+.winenavmap .winenav .winenavdetailcontent a{
+	color: #464646;
+	padding: 0 9px 0 6px;
+	background: url(../img/border01.gif) no-repeat right center;
+}
+.winenavproduct{
+	width: 150px;
+	float: left;
+	overflow: hidden;
+	margin-top: 40px;
+}
+.winenavproduct .productweek{
+	color: rgb(155,0,2);
+	font-weight: bold;
+	line-height: 20px;
+}
+.winenavproduct .productpicture{
+	display: block;
+	overflow: hidden;
+	border: 1px solid darkgray;
+}
+.winenavproduct .producttitle{
+	padding-left: 10px;
+}
+.winenavproduct .productprice{
+	padding-left: 10px;
+	color: #8F0100;
+}
+.winenavproduct .productbuy{
+	padding-left: 10px;
+}
+/*上面是头部样式*/
+
+
+.loginregister{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.loginregister_c{
+	width: 1150px;
+	margin:0 auto;
+
+}
+.register{
+	width: 770px;
+	float: left;
+}
+.register_title{
+	width: 770px;
+	height: 32px;
+	background-image: url(../img/bg.jpg);
+}
+.user{
+	width: 100px;
+	height: 32px;
+	float: left;
+	background-image: url(../img/user.png);
+	cursor: pointer;
+}
+.dealer{
+	width: 100px;
+	height: 32px;
+	float: left;
+	cursor: pointer;
+	background-image: url(../img/bussiness.png);
+}
+.focus{
+	width: 770px;
+	height: 442px;
+	overflow: hidden;
+	position: relative;
+}
+.focus ul{
+	position: absolute;
+	overflow: hidden;
+}
+.focus ul li{
+	float: left;
+	width: 710px;
+	height: 382px;
+	overflow: hidden;
+	padding:30px;
+	background-image: url(../img/regbg.jpg);
+}
+.focus ul li:nth-of-type(2){
+	display: none;
+}
+.tr_left{
+	width: 150px;
+	text-align: right;
+	font-size: 14px;
+	font-family: "宋体";
+	color: #999;
+}
+.tr_left span{
+	color: red;
+}
+.tr_right{
+	text-align: left;
+
+}
+ .textbox{
+	float: left;
+	width: 250px;
+	height: 26px;
+	line-height: 26px;
+	border:1px solid #999;
+	padding:2px 2px 0 2px;
+	font-size: 12px;
+	color: black;
+	border-radius: 5px;
+	background: url(../img/one6.jpg) no-repeat 235px center;
+}
+.errorMsg{
+	float: left;
+	color: black;
+	margin-left: 10px;
+	padding-left: 10px;
+	width: 250px;
+	height: 28px;
+	background-color: #F4F4F4;
+	line-height: 26px;
+	display: none;
+}
+.focus .table1 tr td{
+	padding-top: 15px;
+	line-height: 30px;
+}
+.tr_right .code{
+	width: 100px;
+}
+.tr_right img{
+	vertical-align: center;
+	display: block;
+	float: left;
+}
+.phone{
+	float: left;
+	display: block;
+	cursor: pointer;
+	margin-left: 10px;
+	border:1px solid #DDD;
+	width: 136px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	color: #333;
+	background-color: #F4F4F4;
+}
+.phone:hover{
+	color: red;
+}
+#password,#againpassword{
+	background: url(../img/one5.jpg) no-repeat 235px center;
+}
+.protocal{
+	font-size: 14px;
+	color: #999;
+}
+.btnreg{
+	outline: none;
+	width: 149px;
+	height: 34px;
+	background: url(../img/btn_reg.jpg) no-repeat top right;
+}
+.td_left{
+	width: 150px;
+	text-align: right;
+	font-size: 13px;
+	font-family: "宋体";
+}
+.td_right{
+	text-align: left;
+	font-size: 12px;
+	font-family: "宋体";
+}
+.input1{
+	width: 200px;
+	height: 22px;
+	border:1px solid #d7d7d7;
+	padding-left:5px;
+}
+#spanMobileTel,#spanCompanyName,#spanpassword,#spanemail{
+	color: red;
+}
+.input2{
+	padding-left: 5px;
+	border:1px solid #d7d7d7;
+	height: 22px;
+	width: 100px;
+}
+.login{
+	width: 344px;
+	margin-left: 35px;
+	float: left;
+}
+.login img{
+	display: block;
+}
+.login_main{
+	background: url(../img/loginbg.jpg) repeat-y;
+	height: 267px;
+}
+.login_main table{
+	padding-top: 30px;
+	padding-left: 15px;
+}
+.login_main tr{
+	height: 40px;
+}
+.login_main .login_left{
+	text-align: right;
+	
+}
+.login_main .use{
+	line-height: 40px;
+	font-size: 14px;
+	color: #999;
+}
+.reg2{
+	margin-bottom: 3px;
+	line-height: 22px;
+	position: relative;
+	height: 22px;
+}
+.user_tips{
+	position: absolute;
+	top: -35px;
+	left: 0;
+	display: none;
+	width: 0;
+	height: 0;
+}
+.ui-slider-tooltip{
+	border:1px solid green;
+	color: #222222;
+	background: #FCFDFD;
+	text-align: center;
+	padding:5px 3px 0 3px;
+	width: 120px;
+	position: relative;
+	display: block;
+	border-radius: 5px;
+}
+.ui-tooltip-pointer-down{
+	border-left: 7px dashed transparent;
+	border-right:7px dashed transparent;
+	display: block;
+	position:absolute;
+	left: 50%;
+	bottom: -8px;
+	height: 0;
+	width: 0;
+	margin-left: -7px;
+	border-top:8px solid green;
+}
+.ui-tooltip-pointer-down-inner{
+	border-left: 6px dashed transparent;
+	border-right: 6px dashed transparent;
+	border-top: 7px solid #fff;
+	left: -6px;
+	top: -9px;
+	position: absolute;
+}
+#textUserName{
+	width: 200px;
+	background: url(../img/one6.jpg) no-repeat 185px center;
+}
+#textpassword{
+	width: 200px;
+	background: url(../img/one5.jpg) no-repeat 185px center;
+}
+.btnLogin{
+	width: 93px;
+	height: 30px;
+	cursor: pointer;
+	outline: none;
+	background: url(../img/btn_login.jpg) no-repeat top right;
+}
+.changebox{
+	margin-top: 5px;
+	width: 344px;
+	height: 145px;
+	position: relative;
+}
+.a_bigImg{
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 344px;
+	height: 145px;
+	display: none;
+	opacity: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部样式*/
+.bottom{
+	margin-top: 20px;
+	width: 100%;
+	height: 230px;
+	overflow: hidden;
+
+}
+.bottom_center{
+	width: 1200px;
+	height: 215px;
+	margin: 0 auto;
+	border: 1px solid #f6f3ed;
+}
+.bottom .btinfo1{
+	margin: 30px 0 0 35px;
+	padding-top: 30px;
+	width: 72px;
+	height: 169px;
+	background:url(../img/bt1.gif) no-repeat;
+	float: left;
+}
+.bottom .btinfo2{
+	margin: 30px 0 0 85px;
+	padding-top: 30px;
+	width: 72px;
+	height: 169px;
+	background:url(../img/bt2.gif) no-repeat;
+	float: left;
+}
+.bottom .btinfo3{
+	margin: 30px 0 0 85px;
+	padding-top: 30px;
+	width: 72px;
+	height: 169px;
+	background:url(../img/bt3.gif) no-repeat;
+	float: left;
+}
+.bottom .btinfo4{
+	margin: 30px 0 0 85px;
+	padding-top: 30px;
+	width: 72px;
+	height: 169px;
+	background:url(../img/bt4.gif) no-repeat;
+	float: left;
+}
+.bottom .btinfo5{
+	margin:30px 0 0 120px;
+	padding-top: 30px;
+	width: 450px;
+	height: 169px;
+	background:url(../img/telinfo.gif) no-repeat;
+	float: left;
+}
+.bottom  li{
+	width: 130px;
+	height: 28px;
+	overflow: hidden;
+}
+.bottom  li a{
+	height: 28px;
+	line-height: 28px;
+	color: #464646;
+	overflow: hidden;
+}
+.foot{
+	overflow: hidden;
+	margin-top: 10px;
+	width: 100%;
+}
+.foot_center{
+	width: 1200px;
+	margin: 0 auto;
+}
+.foot_nav{
+	height: 22px;
+	background-color: #730301;
+	overflow: hidden;
+	word-spacing: 1.5em;
+	padding-top: 6px;
+	text-align: center;
+}
+.foot_nav a{
+	color: #fff;
+}
+.foot_wine a{
+	line-height: 28px;
+	color: #AEAEAE;
+	overflow: hidden;
+	padding-right: 10px;
+}
+.foot_network{
+	text-align: center;
+}
+.foot_network a{
+	color: #454545;
+}

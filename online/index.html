@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>一九在线</title>
+		<link rel="stylesheet" type="text/css" href="css/public1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shouye.css">
+		<!-- <script src="js/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="js/index.js" ></script> -->
+		<script type="text/javascript" src ="js/require.js" defer async = "true" data-main = "js/index"></script>
+	</head>
+	<body>
+		<!-- 头部部分 -->
+		<div class="top">
+			<div class="top-box">
+				<div class="searchtop">
+					<ul>
+						<li ><a target="_blank" href="login.html" style="color: #8f0100;" >注册会员</a></li>
+
+						<li ><a target="_blank" href="login.html" style="color: #8f0100;">登录</a></li>
+						<li ><a target="_blank" href="#">我的积分</a></li>
+						<li ><a target="_blank" href="cart.html">购物车</a></li>
+						<li ><a target="_blank" href="#">官方微博</a></li>
+						<li ><a target="_blank" href="#">订购热线：<span style="color: #8f0100;">400-884-1919</span></a></li>
+					</ul>
+				</div>
+				<div class="logo">
+					<img src="img/logo.jpg" />
+					<img src="img/_tips2.jpg"/>
+					<div class="searchbg">
+						<input type="text" />
+						<div class="btnsearch"></div>
+					</div>
+					<img src="img/tips3.jpg" />
+				</div>
+			</div>
+		</div>
+		<!-- 导航 -->
+		<div class="navbox">
+			<div class="navpngmap">
+				<ul id="ul">
+				<li class="curChn"><a href="index.html">首页</a></li>
+				<li><a href="#" target="_blank">列级名庄</a></li>
+				<li><a href="#" target="_blank">中国名酒</a></li>
+				<li><a href="select.html" target="_blank">场合选酒</a></li>
+				<li><a href="#" target="_blank">活动专区</a></li>
+				<li><a href="#" target="_blank">积分商城</a>
+					<div class="hit"></div>
+				</li>
+				<li><a href="#" target="_blank">店面展示</a></li>
+				<li><a href="#" target="_blank">招商加盟</a>
+					<div id="zhaoshang" class="daohanzhaoshan">
+						<a href="#">门店加盟</a>
+						<a href="#">速配网盟</a>
+						<a href="#">采购合作</a>
+					</div>
+				</li>
+				<li><a href="#" target="_blank">葡萄酒主题月</a></li>
+			</ul>
+			</div>
+		</div>
+		<!-- 侧边栏 -->
+		<div class="winenav">
+			<div class="winenavmap">
+				<div class="winenav" id="winenav">
+					<div class="winenav0"></div>
+					<div class="winenav1">
+						<div class="navtitle">
+							<a href="#" target="_blank">白酒</a>
+						</div>
+						<div>
+							<div class="liqueur">
+							<!--白酒列表-->
+							</div>
+							<div id="winenavdetail1" class="winenavdetail">
+								<div class="winenavdetailcontent" id="wContent">
+									<div class="winenavdetailtable" id="winenavdetailtable_1">
+										<div class="winenavdetailtitle">白酒品牌</div>
+										<div class="winenavdetaillink" id="wLink">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable" id="winenavdetailtable_2">
+										<div class="winenavdetailtitle">香型</div>
+											<div class="winenavdetaillink" id="wLink1">
+											
+											</div>
+									</div>
+									<div class="winenavdetailtable" id="winenavdetailtable_3">
+										<div class="winenavdetailtitle">度数</div>
+											<div class="winenavdetaillink" id="wLink2">
+											
+											</div>
+									</div>
+									<div class="winenavdetailtable" id="winenavdetailtable_4">
+										<div class="winenavdetailtitle">年份</div>
+											<div class="winenavdetaillink" id="wLink3">
+											
+											</div>
+									</div>
+									<div class="winenavdetailtable" id="winenavdetailtable_5">
+										<div class="winenavdetailtitle">价格</div>
+											<div class="winenavdetaillink" id="wLink4">
+											
+											</div>
+									</div>
+								</div>
+								<div class="winenavproduct">
+								</div>
+							</div>				
+						</div>
+					</div>
+					<div class="winenav2">
+						<div class="navtitle">
+							<a href="#" target="_blank">洋酒</a>
+						</div>
+						<div >
+							<div class="Spirits">
+								<!--洋酒列表-->
+							</div>
+							 <div id="winenavdetail" class="winenavdetail_1">
+								<div class="winenavdetailcontent">
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">洋酒品牌</div>
+										<div id="wLink5">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">类型</div>
+										<div id="wLink6">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">净含量</div>
+										<div id="wLink7">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">价格</div>
+										<div id="wLink8">
+											
+										</div>
+									</div>
+								</div>
+									<div class="winenavproduct">
+										
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="winenav3">
+						<div class="navtitle">
+							<a href="#" target="_blank">葡萄酒</a>
+						</div>
+						<div >
+							<div class="grape"></div>
+							 <div id="winenavdetail" class="winenavdetail_2">
+								<div class="winenavdetailcontent">
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">红葡萄酒</div>
+										<div id="wLink9">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">类型</div>
+										<div id="wLink10">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">净含量</div>
+										<div id="wLink11">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">价格</div>
+										<div id="wLink12">
+											
+										</div>
+									</div>
+								</div>
+									<div class="winenavproduct">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="winenav4">
+						<div class="navtitle">
+							<a href="#" target="_blank">起泡酒</a>
+						</div>
+						<div >
+							<div class="fizz"></div>
+							<div id="winenavdetail" class="winenavdetail_3">
+								<div class="winenavdetailcontent">
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">起泡酒品种</div>
+										<div id="wLink13">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">类型</div>
+										<div id="wLink14">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">净含量</div>
+										<div id="wLink15">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">价格</div>
+										<div id="wLink16">
+											
+										</div>
+									</div>
+								</div>
+									<div class="winenavproduct">
+										
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="winenav5">
+						<div class="navtitle">
+							<a href="#" target="_blank">其它</a>
+						</div>
+						<div >
+							<div class="other"></div>
+							<div id="winenavdetail" class="winenavdetail_4">
+								<div class="winenavdetailcontent">
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">茶叶</div>
+										<div id="wLink17">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">类型</div>
+										<div id="wLink18">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">净含量</div>
+										<div id="wLink19">
+											
+										</div>
+									</div>
+									<div class="winenavdetailtable">
+										<div class="winenavdetailtitle">价格</div>
+										<div id="wLink20">
+											
+										</div>
+									</div>
+								</div>
+									<div class="winenavproduct">
+										
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 轮播图 -->
+		<div class="slideshow" id="slideshow">
+			<ol>
+				<li class="active">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+			</ol>
+			 <ul>
+				<li><a href="#"><img src="img/1.jpg"></a></li>
+				<li><a href="#"><img src="img/2.jpg"></a></li>
+				<li><a href="#"><img src="img/3.jpg"></a></li>
+				<li><a href="#"><img src="img/4.jpg"></a></li>
+				<li><a href="#"><img src="img/5.jpg"></a></li>
+				<li><a href="#"><img src="img/6.jpg"></a></li>
+				<li><a href="#"><img src="img/1.jpg"></a></li>
+			</ul>
+		</div>
+		<!--天天优惠-->
+		<div class="itembox">
+			<div class="itembox1">
+				<div class="ttth">
+					<div class="ttthtitle">
+						<span id="hour">00</span>
+						<span id="minute">00</span>
+						<span id="second">00</span>
+						<span><img src="img/timersbg.gif"></span>
+					</div>
+					<div class="ttthcontent">
+						<ul>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="notebox">
+					<div class="notebox_top"><img src="img/201631413386278101.jpg"/></div>
+					<div class="notebox_bottom">
+						<ul>
+							<li class="list">最新活动
+								<ul class="notebox_desc1" style="display: block;">
+									
+								</ul>
+							</li>
+							<li class="list">美酒资讯
+								<ul class="notebox_desc2" >
+									
+								</ul>
+							</li>
+							<li class="list">站点公告
+								<ul class="notebox_desc3" >
+									
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--每周特惠-->
+		<div class="prefer">
+			<div class="preference">
+				<div class="preference_title"></div>
+				<div class="mzth1">
+					
+				</div>
+				<div class="mzth2">
+					
+				</div>
+			</div>
+		</div>
+		<!-- 热销推荐 -->
+		<div class="hot-sale">
+			<div class="hot-sale-title" id="hot-sale">
+				<ul>
+					
+				</ul>
+			</div>
+			<div class="hot-sale-content" id="content1" style="display: block;" >
+					<div class="content-left">
+						<a href="#"><img src="img/2017527115431970282.jpg"/></a>
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="content-right">
+						<ul>
+							
+						</ul>
+					</div>
+			</div>
+			<div class="hot-sale-content" id="content2">
+					<div class="content-left">
+						<a href="#"><img src="img/20178101336816878.jpg"/></a>
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="content-right">
+						<ul>
+							
+						</ul>
+					</div>
+			</div>
+			<div class="hot-sale-content" id="content3">
+					<div class="content-left">
+						<a href="#"><img src="img/2016104131137838446.jpg"/></a>
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="content-right">
+						<ul>
+							
+						</ul>
+					</div>
+			</div>
+			<div class="hot-sale-content" id="content4">
+					<div class="content-left">
+						<a href="#"><img src="img/20161221202880684623.jpg"/></a>
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="content-right">
+						<ul>
+							
+						</ul>
+					</div>
+			</div>
+			<div class="hot-sale-content" id="content5">
+					<div class="content-left">
+						<a href="#"><img src="img/2016812192669821616.jpg"/></a>
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="content-right">
+						<ul>
+							
+						</ul>
+					</div>
+			</div>
+			<div class="hot-sale-content" id="content6">
+					<div class="content-left">
+						<a href="#"><img src="img/2017313172566890946.jpg"/></a>
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="content-right">
+						<ul>
+							
+						</ul>
+					</div>
+			</div>
+		</div>
+		<!-- 新品推介 -->
+		<div class="newproduct">
+			<div class="product">
+				<div class="product_top" id="product_top">
+					<ul>
+					
+					</ul>
+				</div>
+				<div class="product_content">
+					<div class="pcontent_left">
+						<ol>
+							<li style="background-color: #fff"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ol>
+						<ul>
+							<li style="display: block;"><a href="#"><img src="img/2017810123956193066.jpg"></a></li>
+							<li><a href="#"><img src="img/201781012394034855.jpg"></a></li>
+							<li><a href="#"><img src="img/2017824113938929312.jpg"></a></li>
+							<li><a href="#"><img src="img/20179412763853555.jpg"></a></li>
+						</ul>
+					</div>
+					<div class="pcontent_right" id="pcontent1" style="display:block;">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="pcontent_right" id="pcontent2">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="pcontent_right" id="pcontent3">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="pcontent_right" id="pcontent4">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="pcontent_right" id="pcontent5">
+						<ul>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部部分 -->
+		<div class="bottom">
+			<div class="bottom_center">
+			<ul class="btinfo1">
+				<li><a href="#">购物演示</a></li>
+				<li><a href="#">新用户注册</a></li>
+				<li><a href="#">会员积分政策</a></li>
+				<li><a href="#">发票制度</a></li>
+			</ul>
+			<ul class="btinfo2">
+				<li><a href="#">在线支付</a></li>
+				<li><a href="#">货到付款</a></li>
+				<li><a href="#">银行转账</a></li>
+				<li><a href="#">支票支付</a></li>
+			</ul>
+			<ul class="btinfo3">
+				<li><a href="#">运费收取标准</a></li>
+			</ul>
+			<ul class="btinfo4">
+				<li><a href="#">服务保障承诺</a></li>
+				<li><a href="#">如何办理退换货</a></li>
+			</ul>
+			<ul class="btinfo5">
+			</ul>
+			</div>
+		</div>
+		<div class="foot">
+			<div class="foot_center">
+				<div class="foot_nav">
+					<a href="#">关于我们</a>
+					<a href="#">联系我们</a>
+					<a href="#">网站地图</a>
+					<a href="#">帮助中心</a>
+					<a href="#">友情链接</a>
+					<a href="#">人才招聘</a>
+					<a href="#">招商加盟</a>
+					<a href="#">建言有礼</a>
+				</div>
+				<div class="foot_wine">
+					<a href="#">查酒价</a>
+					<a href="#">月子酒</a>
+					<a href="#">澳洲红酒</a>
+					<a href="#">白酒代理</a>
+					<a href="#">法国红酒网</a>
+					<a href="#">品酒网</a>
+					<a href="#">西风酒</a>
+					<a href="#">第一糖酒网</a>
+					<a href="#">上海礼品公司</a>
+					<a href="#">红酒</a>
+					<a href="#">调味品招商</a>
+					<a href="#">三脉网</a>
+					<a href="#">进口红酒</a>
+					<a href="#">白酒代理</a>
+					<a href="#">白酒招商</a>
+					<a href="#">红葡萄酒</a>
+					<a href="#">礼物网</a>
+					<a href="#">更多...</a>
+				</div>
+				<div class="foot_network">
+        			copyright © 2009 www.19online.cn&nbsp;|&nbsp;经营许可证：
+        			<a href="/inc/telenet.html">粤b2－20080416</a>"|"
+        			<a rel="nofollow" href="http://www.miitbeian.gov.cn/">粤icp备：06088898号</a>	
+        			<p>
+						<a href="#" target="_blank">工商营业执照 统一社会信用代码 91440104747578468K</a>
+						<a href="#" target="_blank">食品经营许可证 JY14401040008767(1-1)</a>
+        			</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

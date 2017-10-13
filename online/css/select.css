@@ -1,0 +1,100 @@
+.occasion {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 15px; }
+
+.occasion_c {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.occasion_lf {
+  width: 216px;
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #dbdbdb;
+  border-top: 3px solid #730301;
+  overflow: hidden; }
+
+.occasion_type {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .occasion_type li {
+    margin-bottom: 1px;
+    border-bottom: 1px solid #e8e8e8;
+    height: 28px;
+    font-size: 13px;
+    line-height: 28px;
+    color: #333;
+    background-color: #fbfbfb;
+    padding-left: 10px; }
+    .occasion_type li:hover a {
+      color: red; }
+
+.occasion_rg {
+  display: none;
+  float: left;
+  width: 920px;
+  overflow: hidden; }
+  .occasion_rg .occasion_main {
+    float: left;
+    overflow: hidden;
+    width: 910px;
+    margin-top: 8px; }
+    .occasion_rg .occasion_main .occasion_3_2, .occasion_rg .occasion_main .occasion_3_3 {
+      display: none; }
+    .occasion_rg .occasion_main .occasion_3_1 {
+      display: block; }
+    .occasion_rg .occasion_main .mut {
+      width: 910px;
+      height: 22px;
+      padding: 7px;
+      margin: 4px 3px 10px 3px;
+      font-size: 12px;
+      text-align: center; }
+      .occasion_rg .occasion_main .mut span {
+        border: 1px solid #ccc;
+        padding: 5px;
+        margin: 2px;
+        color: #000;
+        cursor: pointer; }
+      .occasion_rg .occasion_main .mut span:nth-of-type(1) {
+        border: 0; }
+  .occasion_rg ul {
+    overflow: hidden; }
+    .occasion_rg ul li {
+      width: 180px;
+      height: 270px;
+      float: left;
+      border-bottom: 1px dotted #ccc;
+      border-right: 1px dotted #ccc;
+      margin-top: 6px; }
+      .occasion_rg ul li:hover {
+        background-color: #ccc; }
+      .occasion_rg ul li div {
+        width: 180px;
+        height: 198px; }
+        .occasion_rg ul li div img {
+          width: 150px;
+          height: 180px;
+          vertical-align: middle;
+          margin-left: 14px;
+          margin-top: 12px;
+          display: block; }
+      .occasion_rg ul li p {
+        width: 160px;
+        margin-left: 19px;
+        line-height: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+        .occasion_rg ul li p b {
+          color: #ababab;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: normal; }
+        .occasion_rg ul li p em {
+          color: #a10000;
+          font-weight: normal;
+          font-style: normal; }
